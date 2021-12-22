@@ -1,0 +1,54 @@
+Without HyperParameters Tuning:
+Note: O:  <=50K and 1: >50K 
+
+HyperParameters:
+Features List: ['Age', 'Education', 'Occupation', 'Race', 'Gender', 'Hours']
+Max Depth: None
+
+
+No. of Unseen Data Points:  361 (Default is 0)
+
+
+Confusion Matrix:
+Predicted     0     1
+Actual               
+0          1995   573
+1           730  1557
+
+
+Metrics:
+Error           0.26838311019567457
+Accuracy        0.7316168898043255
+False Alarm     0.3191954525579362
+Miss            0.22313084112149534
+Recall          0.7768691588785047
+Precision       0.7321100917431193
+
+
+With HyperParameters Tuning:
+Note: O:  <=50K and 1: >50K 
+
+HyperParameters:
+Features List: ['Age', 'Occupation', 'Race', 'Gender', 'Hours']
+Max Depth: 4
+
+
+No. of Unseen Data Points:  67 (Default is 0)
+
+
+Confusion Matrix:
+Predicted     0     1
+Actual               
+0          1931   637
+1           645  1642
+
+
+Metrics:
+Error           0.26405767250257467
+Accuracy        0.7359423274974254
+False Alarm     0.2820288587669436
+Miss            0.24805295950155765
+Recall          0.7519470404984424
+Precision       0.749611801242236
+
+
